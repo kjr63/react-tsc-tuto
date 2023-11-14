@@ -1,11 +1,18 @@
 import * as React from "react";
 import Counter from "./Counter";
 import Hello from './hello';
- const App=()=>{
+import CHello from './class-hello';
+import SHello from './state-hello';
+import SHello2 from './state-hello-2';
+
+ function App (): React.JSX.Element {
     return (
 		<div>
 			<h1>Create React App from Scratch Using Typescript..!!</h1>
-			<Hello name="Bill" enthusiasmLevel = {1}></Hello>		
+			<Hello name="Bill" enthusiasmLevel = {1}></Hello>
+			<CHello name="Adam" enthusiasmLevel = {2}></CHello>
+			<SHello name="Isak" enthusiasmLevel = {3}></SHello>
+			<SHello2 name="Abraham" enthusiasmLevel = {4}></SHello2>			
 		</div>
     );
 }

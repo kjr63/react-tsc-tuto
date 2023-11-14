@@ -30,8 +30,8 @@
 				"url": "https://github.com/kjr63/react-tsc-tuto/issues"
 		},
 		"engines": {
-				"node": "12.22.12",
-				"npm": "6.14.16"
+				"node": "14.21.3",
+				"npm": "6.14.18"
 		},
 		"devDependencies": {
 				"@babel/cli": "^7.16.0",
