@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = require("react");
+var Counter_1 = require("./Counter");
 var hello_1 = require("./hello");
 var class_hello_1 = require("./class-hello");
 var state_hello_1 = require("./state-hello");
@@ -11,7 +12,8 @@ function App() {
 			<hello_1.default name="Bill" enthusiasmLevel={1}></hello_1.default>
 			<class_hello_1.default name="Adam" enthusiasmLevel={2}></class_hello_1.default>
 			<state_hello_1.default name="Isak" enthusiasmLevel={3}></state_hello_1.default>
-			<state_hello_2_1.default name="Abraham" enthusiasmLevel={4}></state_hello_2_1.default>			
+			<state_hello_2_1.default name="Abraham" enthusiasmLevel={4}></state_hello_2_1.default>
+			<Counter_1.default init={2}></Counter_1.default>
 		</div>);
 }
 exports.default = App;

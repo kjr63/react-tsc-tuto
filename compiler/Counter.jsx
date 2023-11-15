@@ -10,11 +10,13 @@ var react_1 = require("react");
 // </div>
 // )
 // }
-function Counter() {
-    var _a = (0, react_1.useState)(0), count = _a[0], setCount = _a[1];
+function Counter(_a) {
+    var init = _a.init;
+    var _b = (0, react_1.useState)(init), count = _b[0], setCount = _b[1];
     return (<div>
       <h3>Update the count and edit src/App.tsx, state is preserved</h3>
       <button onClick={function () { return setCount(function (c) { return c + 1; }); }}>Count - {count}</button>
+	  {/*<button onClick={() => setCount('hello world')}>Teksti - {count}</button>*/}	  
     </div>);
 }
 exports.default = Counter;

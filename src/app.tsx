@@ -12,7 +12,8 @@ import SHello2 from './state-hello-2';
 			<Hello name="Bill" enthusiasmLevel = {1}></Hello>
 			<CHello name="Adam" enthusiasmLevel = {2}></CHello>
 			<SHello name="Isak" enthusiasmLevel = {3}></SHello>
-			<SHello2 name="Abraham" enthusiasmLevel = {4}></SHello2>			
+			<SHello2 name="Abraham" enthusiasmLevel = {4}></SHello2>
+			<Counter init={2}></Counter>
 		</div>
     );
 }
