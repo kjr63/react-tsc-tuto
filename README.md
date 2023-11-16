@@ -1,3 +1,4 @@
 # react-tsc-tuto
-# tsc näytä lukevan tsconfig.json tiedostoa lainkaan 
-# käännös onnistuu kuitenkin komennolla: npx tsc src/app.tsx --jsx preserve --outDir ./compiler
+# käännös komennolla npx tsc (käyttää tsconfig.json parametreja)
+# webpack.configin babel-loader pyyhkii pois kaikki tyypinmäärittelyt eikä kerro "käännösvirheistä"
+# Jos haluaa käännösvirheet webpackin kautta : käytettävä ts-loader

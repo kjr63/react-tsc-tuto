@@ -1,5 +1,5 @@
 import * as React from "react";
-import Counter from "./Counter";
+import Counter from "./counter";
 import Hello from './hello';
 import CHello from './class-hello';
 import SHello from './state-hello';
