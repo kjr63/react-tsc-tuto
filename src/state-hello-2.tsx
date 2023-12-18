@@ -49,6 +49,6 @@ class SHello2 extends React.Component<Props, State> {
 
 export default SHello2;
 
-function getExclamationMarks(numChars: number) {
+function getExclamationMarks(numChars: number):Array {
   return Array(numChars + 1).join("!");
 }

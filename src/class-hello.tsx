@@ -27,6 +27,6 @@ export default CHello;
 
 // helpers
 
-function getExclamationMarks(numChars: number) {
+function getExclamationMarks(numChars: number): Array {
   return Array(numChars + 1).join("!");
 }

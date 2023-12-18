@@ -1,9 +1,9 @@
 import * as React from "react";
-import Counter from "./counter";
 import Hello from './hello';
 import CHello from './class-hello';
 import SHello from './state-hello';
 import SHello2 from './state-hello-2';
+import Counter from "./counter";
 
  function App (): React.JSX.Element {
     return (
